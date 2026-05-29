@@ -1,0 +1,95 @@
+
+/* General */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f5f1ea;
+    color: #333;
+}
+
+/* Navbar */
+.navbar{
+    background-color: #3e2723;
+    padding: 15px 0;
+}
+
+.navbar-brand{
+    color: white !important;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.nav-link{
+    color: white !important;
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+/* Hero */
+.hero{
+    height: 100vh;
+
+    background:
+    linear-gradient(rgba(0,0,0,0.6),
+    rgba(0,0,0,0.6)),
+
+    url('https://images.unsplash.com/photo-1495474472287-4d71bcdd2085');
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    color: white;
+}
+
+.hero h1{
+    font-size: 65px;
+}
+
+.hero p{
+    font-size: 24px;
+    margin: 20px 0;
+}
+
+/* Buttons */
+.btn-dark{
+    background-color: #3e2723 !important;
+    border: none !important;
+    padding: 12px 30px;
+}
+
+/* Cards */
+.card{
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+.card img{
+    height: 250px;
+    object-fit: cover;
+}
+
+/* Footer */
+footer{
+    background-color: #3e2723;
+    color: white;
+    padding: 40px 0;
+    margin-top: 50px;
+}
+
+footer h3{
+    color: white;
+}
